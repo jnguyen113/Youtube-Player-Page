@@ -1,0 +1,61 @@
+.topnav {
+    background-color:rgb(255, 255, 255);
+    overflow: hidden;
+}
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a.active {
+    background-color: rgb(175, 76, 76);
+    color: white;
+}
+
+.searchfield {
+    position: relative;
+    margin-top: 10px;;
+    text-align: center;
+}
+
+.topnav b, .signin button{
+    text-decoration: none;
+}
+
+.signin button{
+    float: right;
+    background: #4484f1;
+    padding: 1px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.mediacontent{
+    position: relative;
+    text-align: center;
+    margin-top: 10%;
+    display: block;
+ 
+}
+
+.buttonleft button{
+    position: fixed;
+    background: #ff0000;
+    font-weight: bold;
+    font-size: 20px;
+    color: #f2f2f2;
+    border-radius: 10%;
+    margin-left: 35.3%
+}
+
+
+.buttonright button{
+    position: relative;
+    border-right-style: double;
+    text-align: center;
+    display: inline-block;
+    
+}
